@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">ToPhd — 中国大陆申博全流程伴侣</title>
+  <desc id="desc">深蓝色科研风格横幅，展示从个人档案到导师匹配与博士申请的路径。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.52" stop-color="#102C4E"/>
+      <stop offset="1" stop-color="#0C5B67"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79E0D2"/>
+      <stop offset="1" stop-color="#E6C777"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9FDAD8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1084" cy="80" r="180" fill="#2AA7A1" opacity="0.08"/>
+  <circle cx="1160" cy="360" r="230" fill="#E5C16C" opacity="0.055"/>
+
+  <g transform="translate(82 72)">
+    <rect x="0" y="0" width="58" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="0" y="100" fill="#FFFFFF" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-size="88" font-weight="750" letter-spacing="-2">ToPhd</text>
+    <text x="3" y="151" fill="#B8D9E0" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-size="25" font-weight="500" letter-spacing="3">中国大陆申博全流程伴侣</text>
+    <text x="3" y="217" fill="#E8F2F4" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-size="21">Profile · Evidence · Matching · Tracking</text>
+    <text x="3" y="263" fill="#91BAC3" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-size="17">本地优先隐私保护  /  官方来源核验  /  可追踪申请工作流</text>
+  </g>
+
+  <g transform="translate(790 88)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 214C122 214 128 118 211 118S299 214 382 214" stroke="url(#accent)" stroke-width="3" opacity="0.78"/>
+    <path d="M42 214C122 214 128 310 211 310S299 214 382 214" stroke="#71CFC5" stroke-width="2" opacity="0.34"/>
+    <path d="M211 118V310" stroke="#A3D9D2" stroke-width="1.5" opacity="0.28" stroke-dasharray="5 8"/>
+
+    <g filter="url(#glow)">
+      <circle cx="42" cy="214" r="11" fill="#79E0D2" stroke="#D9FFFA" stroke-width="3"/>
+      <circle cx="211" cy="118" r="11" fill="#79E0D2" stroke="#D9FFFA" stroke-width="3"/>
+      <circle cx="211" cy="310" r="11" fill="#E6C777" stroke="#FFF1C2" stroke-width="3"/>
+      <circle cx="382" cy="214" r="15" fill="#E6C777" stroke="#FFF1C2" stroke-width="3"/>
+    </g>
+
+    <g font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-size="15" fill="#DCEBED" stroke="none" text-anchor="middle">
+      <text x="42" y="250">申请者档案</text>
+      <text x="211" y="84">导师匹配</text>
+      <text x="211" y="348">官方核验</text>
+      <text x="382" y="255">PhD</text>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1278.5" height="418.5" rx="27.25" fill="none" stroke="#BFE9E5" stroke-opacity="0.22" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ToPhd"
+  short_description: "内置本地隐私保护的中国大陆申博全流程伴侣"
+  default_prompt: "使用 $to-phd 评估一位目标导师，并结合我的经历给出个性化套磁建议。"

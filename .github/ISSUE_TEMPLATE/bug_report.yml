@@ -1,0 +1,35 @@
+name: Bug report
+description: 报告可复现的问题，请勿附带真实申请材料
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请使用完全虚构或不可逆匿名化的数据复现问题，不要上传简历、成绩单、证书、联系方式或导师私人回复。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你希望 ToPhd 完成什么任务？
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认本 Issue 不包含真实申请者信息或敏感材料
+          required: true

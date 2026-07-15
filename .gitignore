@@ -1,0 +1,47 @@
+# Applicant workspaces and private materials
+cases/
+**/cases/
+materials/
+**/materials/
+uploads/
+**/uploads/
+private/
+tracking-data/
+
+# Personal documents and exports
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.psv
+*.png
+*.jpg
+*.jpeg
+
+# Keep sanitized Skill assets
+!to-phd/assets/*.docx
+!to-phd/assets/*.xlsx
+!to-phd/assets/*.csv
+!docs/assets/*.svg
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Local tooling
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.log
